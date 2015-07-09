@@ -1,0 +1,502 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="js/jquery-1.8.0.js"></script>
+		<script src="js/jquery.roundabout.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link href="video-js.css" rel="stylesheet"/>
+		<script src="js/video.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="javascript.js"></script>
+		<title>Packt Video player</title>
+	</head>
+	<body>
+		<img class="logo" src="images/logo.png"/>
+		<div class="banner">
+			<ul id ="nav">
+				<li><div class="icon orange" style="background-position: 24px -56px;" data-horiz="24px"></div><a href="#" id="main-menu" class="navig">Main menu </a></li>
+
+				<li><div id="credits-icon" class="icon" style="background-position: 0px 0px;" data-horiz="0px"></div><a href="credits.html" id="credits" class="navig">Credits </a></li>
+
+				<li><div class="icon" style="background-position: 54px 0px;" data-horiz="54px"></div><a href="overview.html" id="course" class="navig"> Course Overview </a></li>
+				<!--<li><div class="icon" style="background-position: 54px 0px;" data-horiz="54px"></div><a href="Videos/Packt.m3u" id="playlist" class="navig"> Playlist </a></li>-->
+			</ul>
+		</div>
+		<div class="gradient">
+			<img src="images/gradient.png" style="width: 100%; background-repeat: repeat-x;">
+		</div>
+		<div id="wrapper">
+			
+		<div class="intro">
+			<div class="inner">
+			<h1>Building Single Page Web Apps with AngularJS</h1>
+			
+		</div>
+		</div>
+		<div class="right">
+			<div id="main_next" class="next"></div>
+		</div>
+		<div class="left">
+			<div id="main_prev" class="prev"></div>
+		</div>
+		<div class="right-bottom">
+			<div id="button-next" class="next-bottom"></div>
+		</div>
+		<div class="left-bottom">
+			<div id="button-prev" class="prev-bottom"></div>
+		</div>
+		<div class="back">
+		</div>
+		<div>
+		<div id="content-main">
+			<ul class="move">
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>Section 1: Introduction to AngularJS </h1>
+					<p> In this section, we're going to introduce the basic concepts that you'll need to grasp in order to start developing with AngularJS. We'll talk about its advantages and applications and overview its architecture while reviewing the Model–view-controller pattern. Moreover, we will discuss what MVC really means from the perspective of a frontend framework. 
+						<ul>
+							<li> The Course Introduction and Objectives  </li>
+							<li> Prerequisites  </li>
+							<li> Understanding the Basics of AngularJS and the MVC Architecture </li>
+						</ul>
+					</p>
+					<div id="#content-1" class="btn btn-primary browse">Browse Videos</div>
+
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>Section 2: Your First AngularJS App</h1>
+					<p> In this section, we're going to dive head first into AngularJS development. We'll build a very basic application (such as, a to-do list), including how to use a boilerplate  to kick off your app and review the basic mechanics of the framework in the process such as the use of directives, scopes, modules, and much more.
+          <ul>
+							<li> Angular-seed   </li>
+							<li> Building a “To-do App” - Part 1   </li>
+							<li> Building a “To-do App” - Part 2   </li>
+              <li> Building a “To-do App” - Part 3   </li>
+							<li> Building a “To-do App” - Part 4   </li>
+							
+						</ul>
+          </p>
+					<div class="btn btn-primary browse" id="#content-2">Browse Videos</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>Section 3: Building a Complex Single Page Application</h1>
+					<p> In this section, we're going to build our second application. This time, we're going for something way more complex (such as a movie database application), which will give us the chance to introduce many other concepts of the framework, such as routing, filters, services, factories, and partial views.
+          <ul>
+							<li> Building a Complex Single Page Application - Part 1 </li>
+							<li> Building a Complex Single Page Application - Part 2 </li>
+							<li> Building a Complex Single Page Application - Part 3 </li>
+              <li> Building a Complex Single Page Application - Part 4 </li>
+							<li> Building a Complex Single Page Application - Part 5 </li>
+							<li> Building a Complex Single Page Application - Part 6 </li>
+						</ul>
+          </p>
+					<div class="btn btn-primary browse" id="#content-3">Browse Videos</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>Section 4: Directives and Filters</h1>
+					<p> In this section, we're going to take an in-depth look at directives and filters. We'll review both the basic and advanced directives available in the framework, and then we're going to learn how to write our own custom directives. Then, we will do the same for filters.
+          <ul>
+							<li> AngularJS Directives  </li>
+							<li> Writing Custom Directives  </li>
+							<li> AngularJS Filters  </li>
+						</ul>
+          </p>
+					<div class="btn btn-primary browse" id="#content-4">Browse Videos</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>Section 5: Services and Factories </h1>
+					<p> In this section, we're going to take an in-depth look at the services and factories modules, which are fundamental to understand the integration of AngularJS with server-side technologies. We're going to find out more details on how to use asynchronous data requests through the $http and $resource services.
+          <ul>
+							<li> Writing Custom Services </li>
+							<li> AngularJS Services </li>
+							
+						</ul>
+          </p>
+					<div class="btn btn-primary browse" id="#content-5">Browse Videos</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>Section 6: Testing in AngularJS </h1>
+					<p> In this last section, we're going to review the core concepts of how to perform proper test-driven development using AngularJS. We're going to write and run Karma unit tests with Jasmine and review the process of creating end-to-end tests with Protractor (using our movie database app as the groundwork).
+          <ul>
+							<li> Automated Testing in AngularJS </li>
+							<li> Unit Testing with Karma  </li>
+							<li> E2E Testing with Protractor </li>
+						</ul>
+          </p>
+					<div class="btn btn-primary browse" id="#content-6">Browse Videos</div>
+				</li>				                    
+        		
+			</ul>
+		</div>	
+		
+    
+    <div class="chapter" id="content-1" style="position: relative; top: -500px; display: none;">
+			<ul class="move">
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>1.1	The Course Introduction and Objectives  </h1>
+					<span>
+						Introducing the course and its prerequisites.
+						<ul>
+							<li> Introduce the author and then define AngularJS, its basic characteristics, and usefulness </li>
+							<li> Learn about single-page applications and what sets them apart from the classical approach </li>
+							<li> Present the course objectives and goals </li>
+						</ul>
+						
+					</span>
+					<div id="video1_1" class="btn btn-small btn-primary watch" data-video="videos/video1_1.mp4" data-poster="images/videoImage.jpg">Watch Video</div>
+					<a href="videos/video1_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>1.2	Prerequisites </h1>
+					<span>Understanding the prerequisites for taking the course.
+          <ul>
+							<li> Understand the prerequisites of the course in terms of JavaScript and HTML markup language knowledge  </li>
+							<li> Pick a text editor of your choice </li>
+							<li> Learn where to find Git and Node.js and how to install them </li>
+						</ul>
+          </span>
+					<div id="video1_2" class="btn btn-small btn-primary watch" data-video="videos/video1_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video1_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				
+					<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>1.3	Understanding the Basics of AngularJS and the MVC Architecture </h1>
+					<span> A review of the basic terms and concepts of AngularJS as well as an overview of the MVC architecture.
+          <ul>
+							<li> Learn about expressions, directives, two-way data binding, and filters </li>
+							<li> Learn about the MVC architecture and what each one of the layers represent in AngularJS </li>
+							<li> Learn about modules and dependency injection </li>
+						</ul>
+          </span>
+					<div id="video1_3" class="btn btn-small btn-primary watch" data-video="videos/video1_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video1_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>				
+		
+			</ul>
+		</div>
+	
+  
+  	<div class="chapter" id="content-2" style="position: relative; top: -500px; display: none;">
+			<ul class="move">
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>2.1	Angular-seed  </h1>
+					<span>Introducing the Angular-seed boilerplate and starting up the project.
+						<ul>
+							<li> Clone the Angular-seed repository </li>
+							<li> Install dependencies using NPM and Bower </li>
+							<li> Learn how to run your AngularJS application </li>
+							
+						</ul>
+						
+					</span>
+					<div id="video2_1"class="btn btn-small btn-primary watch" data-video="videos/video2_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video2_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>2.2	Building a “To-do App” - Part 1 </h1>
+					<span> Start coding the first application: a to-do list.
+          	<ul>
+							<li> Learn the basics about project structuring and templates </li>
+							<li> Write your first view and controller </li>
+							<li> Analyze a couple of examples of data binding </li>
+							
+						</ul>
+          </span>
+					<div id="video2_2" class="btn btn-small btn-primary watch" data-video="videos/video2_2.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video2_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>2.3	Building a “To-do App” - Part 2 </h1>
+					<span> Continue coding the To-do application.
+          	<ul>
+							<li> Learn to deal with data by creating the task list </li>
+							<li> Learn to bind methods and models to form elements </li>
+							<li> Write some event handling code  </li>
+							
+						</ul>
+          </span>
+					<div id="video2_3" class="btn btn-small btn-primary watch" data-video="videos/video2_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video2_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden" >Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>2.4	Building a “To-do App” - Part 3 </h1>
+					<span> Take care of the To-do application's templating and CSS.
+          	<ul>
+							<li> Learn how to add a CSS framework to your project (Bootstrap) </li>
+							<li> Write the basic CSS for your app </li>
+							<li> Learn about the AngularJS UI Bootstrap </li>
+						
+						</ul>
+          </span>
+					<div id="video2_4" class="btn btn-small btn-primary watch" data-video="videos/video2_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video2_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>2.5	Building a “To-do App” - Part 4  </h1>
+					<span> Polishing the To-do application.
+          	<ul>
+							<li> Implement a task counter and learn about $watch </li>
+							<li> Add a task cleaning method and form </li>
+							<li> Show/hide view elements based on the model state </li>
+					
+						</ul>
+          </span>
+					<div id="video2_5" class="btn btn-small btn-primary watch" data-video="videos/video2_5.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video2_5.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				       
+			</ul>
+		</div>
+	
+  	<div class="chapter" id="content-3" style="position: relative; top: -500px; display: none;">
+			<ul class="move">
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>3.1	Building a Complex Single Page Application - Part 1  </h1>
+					<span> Start coding a movie gallery application.
+          <ul>
+							<li> Start up the project using the Angular-seed boilerplate </li>
+							<li> Import bootstrap using Bower </li>
+							<li> Import exercise files into the project folder </li>					
+						</ul>
+          
+          </span>
+					<div id="video3_1"class="btn btn-small btn-primary watch" data-video="videos/video3_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video3_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>3.2	Building a Complex Single Page Application - Part 2 </h1>
+					<span> Working on the movie gallery app - dealing with controllers and models.
+          	<ul>
+							<li> Analyze the model structure of the JSON files </li>
+							<li> Write your first controller </li>
+							<li> Write the gallery view and refine it </li>
+						
+						</ul>
+          </span>
+					<div id="video3_2" class="btn btn-small btn-primary watch" data-video="videos/video3_2.mp4" data-poster="images/videoImage.jpg">Watch Video</div>
+					<a href="videos/video3_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>3.3	Building a Complex Single Page Application - Part 3 </h1>
+					<span> Working on the movie gallery app - dealing with CSS and pagination.
+          	<ul>
+							<li> Write some CSS for the gallery view </li>
+							<li> Use bower to include the UI-bootstrap JavaScript in the project </li>
+							<li> Use the UI-bootstrap pagination component in conjunction with filters to create a pagination </li>
+							
+						</ul>
+          </span>
+					<div id="video3_3" class="btn btn-small btn-primary watch" data-video="videos/video3_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video3_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden" >Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>3.4	Building a Complex Single Page Application - Part 4 </h1>
+					<span> Working on the movie gallery app - dealing with routes and multiple views.
+          	<ul>
+							<li> Import angular routes module into your project </li>
+							<li> Write the basic routes of your app and learn about URL handling </li>
+							<li> Create a second view (movie details) using the URL parameters </li>
+							
+						</ul>
+          </span>
+					<div id="video3_4" class="btn btn-small btn-primary watch" data-video="videos/video3_4.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video3_4.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>3.5	Building a Complex Single Page Application - Part 5 </h1>
+					<span> Working on the movie gallery app - making the movie details page.
+          	<ul>
+							<li> Create a template for the movie details view </li>
+							<li> Set up page links and href between application routes </li>
+							<li> Write CSS for the movie details view </li>
+						
+						</ul>
+          </span>
+					<div id="video3_5" class="btn btn-small btn-primary watch" data-video="videos/video3_5.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video3_5.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>3.6	Building a Complex Single Page Application - Part 6 </h1>
+					<span> Working on the movie gallery app - dealing with custom services and final touches.
+          	<ul>
+							<li> Isolate the server's API logic in a custom service </li>
+							<li> Get information about the genre of the movies from the genres.json file </li>
+							<li> Add the filtering by the movie genre option to the application </li>
+							
+						</ul>
+          </span>
+					<div id="video3_6" class="btn btn-small btn-primary watch"  data-video="videos/video3_6.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video3_6.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+						
+			</ul>
+		</div>
+	
+  
+  	<div class="chapter" id="content-4" style="position: relative; top: -500px; display: none;">
+			<ul class="move">
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>4.1	AngularJS Directives </h1>
+					<span> A review of all the important AngularJS built-in directives.
+          	<ul>
+							<li> Learn about AngularJS' basic directives, such as ng-app, ng-controller, ng-view, ng-model, ng-repeat, and so on  </li>
+							<li> Learn about event handling directives, such as ng-click, ng-submit, and so on   </li>
+							<li> Learn about AngularJS' less important directives, templating tools, and CSS modifiers </li>
+							
+						</ul>
+          </span>
+					<div id="video4_1"class="btn btn-small btn-primary watch" data-video="videos/video4_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video4_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>4.2	Writing Custom Directives </h1>
+					<span>Understanding the basics of how to write custom directives.
+          	<ul>
+							<li> Understand how directives are compiled by AngularJS </li>
+							<li> Learn about the attributes that define a directive </li>
+							<li> Write a basic custom directive example </li>
+						
+						</ul>
+          </span>
+					<div id="video4_2" class="btn btn-small btn-primary watch" data-video="videos/video4_2.mp4" data-poster="images/videoImage.jpg">Watch Video</div>
+					<a href="videos/video4_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+			
+      	<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>4.3	AngularJS Filters  </h1>
+					<span> A review of AngularJS' built-in and custom filters.
+          	<ul>
+							<li> Understand how to use filters on both the view and the controller </li>
+							<li> Review all the basic filter types available in the framework </li>
+							<li> Write a simple custom filter </li>
+							
+						</ul>
+          </span>
+					<div id="video4_3" class="btn btn-small btn-primary watch" data-video="videos/video4_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video4_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden" >Last Viewed</div>
+				</li>
+				
+       
+        
+        	
+      	</ul>
+		</div>
+		<div class="chapter" id="content-5" style="position: relative; top: -500px; display: none;">
+			
+			<ul class="move">
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>5.1	Writing Custom Services  </h1>
+					<span> Learn the basics about the four kinds of services available in AngularJS and how to write custom services.
+          	<ul>
+							<li> Understanding the four basic types of services (value, constant, service, and factory) </li>
+							<li> Writing a basic service </li>
+							<li> Writing a simple factory </li>
+							
+						</ul>
+          </span>
+					<div id="video5_1"class="btn btn-small btn-primary watch" data-video="videos/video5_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video5_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>5.2	AngularJS Services </h1>
+					<span> A review of AngularJS' built-in services.
+          	<ul>
+							<li> Learn about data requests using the $http and $resource services </li>
+							<li> Understand location and routing services </li>
+							<li> Learn about the AngularJS wrapper services for JavaScript objects </li>
+						
+						</ul>
+          </span>
+					<div id="video5_2" class="btn btn-small btn-primary watch" data-video="videos/video5_2.mp4" data-poster="images/videoImage.jpg">Watch Video</div>
+					<a href="videos/video5_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>															
+				</ul>
+		</div>
+	
+  
+  	<div class="chapter" id="content-6" style="position: relative; top: -500px; display: none;">
+			
+			<ul class="move">
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>6.1	Automated Testing in AngularJS  </h1>
+					<span> Learn the basics of automated testing in AngularJS.
+          	<ul>
+							<li> Learn what are unit tests and E2E tests </li>
+							<li> Analyze the anatomy of a test file </li>
+							<li> Learn about Karma, Protractor, and Jasmine </li>
+							
+						</ul>
+          </span>
+					<div id="video6_1"class="btn btn-small btn-primary watch" data-video="videos/video6_1.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video6_1.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>6.2	Unit Testing with Karma </h1>
+					<span> Practical examples of how to code unit tests using Karma.
+          	<ul>
+							<li> Learn to configure and run your unit tests with Karma </li>
+							<li> Write a couple of unit tests for your application's custom services </li>
+							<li> Write a couple of unit tests for your application's controllers </li>
+						
+						</ul>
+          </span>
+					<div id="video6_2" class="btn btn-small btn-primary watch" data-video="videos/video6_2.mp4" data-poster="images/videoImage.jpg">Watch Video</div>
+					<a href="videos/video6_2.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden">Last Viewed</div>
+				</li>
+				<li><img src="images/image.jpg" class="image-holder"/>
+					<h1>6.3	E2E Testing with Protractor </h1>
+					<span> Practical examples of how to code E2E tests using protractor.
+          	<ul>
+							<li> Learn how to configure and run your E2E tests with protractor on the browser of your choice </li>
+							<li> Write your first E2E test for a movie database application </li>
+							<li> Write a couple of extra examples of E2E tests </li>
+						
+						</ul>
+          </span>
+					<div id="video6_3" class="btn btn-small btn-primary watch" data-video="videos/video6_3.mp4" data-poster="images/videoImage.jpg" >Watch Video</div>
+					<a href="videos/video6_3.mp4" class="btn btn-small btn-primary download" target="_blank">Download</a>
+					<div class="last-hidden" >Last Viewed</div>
+				</li>			                    
+         						
+			</ul>
+		</div>	  
+    
+		</div>
+		<div id="video-wrapper">
+			<div id="video-player" class="video">
+			</div>
+			<a href="#" id="largerqt">View Larger</a>
+			<h1></h1>
+			<span></span>
+			<a href="#" class="watch-next-video btn btn-primary  navigation" style="left: 550px;" data-next="" data-video="" data-prev="">Next</a>
+			<a href="#" class="watch-prev-video btn btn-primary  navigation" style="left: 420px;"  data-prev="" data-video="" data-poster="">Prev</a>
+			<div class="btn back-video "><strong>Close</strong>
+			</div>
+		</div>
+		</div>
+		<div class="quicktime-full">
+			<div class="full-player">
+			</div>
+		</div>
+	</body>
+</html>
